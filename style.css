@@ -1,0 +1,109 @@
+.container {
+    padding-top: 10px;
+    border: solid;
+    border-block-end-color: green;
+    border-block-start-color: green;
+    border-left-color: orange;
+    border-right-color: orange;
+    margin-top: 20px;
+    text-align: center;
+    background-color: white;
+    width: 50%;
+}
+
+.box {
+    border: solid;
+    margin-top: 50px;
+    text-align: center;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-block-end-color: orange;
+    border-block-start-color: orange;
+    border-left-color: green;
+    border-right-color: green;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    display: none;
+}
+
+.box2 {
+    padding-top: 50px;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+h1 {
+    color: orange;
+}
+
+h2 {
+    font-size: 20px;
+    color: green;
+}
+
+h3 {
+    padding-top: 10px;
+    text-align: center;
+    color: green;
+    margin-bottom: 20px;
+}
+
+.input {
+    margin-top: 30px;
+}
+
+.left-column {
+    text-align: right;
+}
+
+.right-column {
+    text-align: left;
+}
+
+.next-days {
+    margin: 40px 0;
+    display: none;
+}
+
+.next-days div:not(:first-child) {
+    border-left: 2px solid;
+}
+
+.next-days div {
+    font-size: 20px;
+    color: green;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.search {
+    background-color: white;
+    border-radius: 50px;
+}
+
+.search-btn {
+    border-radius: 50px;
+    background-color: orange;
+    color: white;
+}
+
+.current-btn {
+    border-radius: 50px;
+    background-color: green;
+    color: white;
+}
+
+.day,
+.temperature,
+.city {
+    font-size: 20px;
+}
+
+.emoji-emoji-sizer {
+    display: none;
+}
