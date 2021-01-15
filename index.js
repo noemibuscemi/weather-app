@@ -1,4 +1,4 @@
-const moment = require("moment");
+//const moment = require("moment");
 const apiKey = "8ada9ef551812d3cb48084db2588ce66";
 
 function toFar(degrees) {
