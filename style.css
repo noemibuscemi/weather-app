@@ -1,6 +1,8 @@
 .container {
     padding-top: 10px;
     border: solid;
+    border-width: 5px;
+    border-radius: 50px;
     border-block-end-color: green;
     border-block-start-color: green;
     border-left-color: orange;
@@ -8,11 +10,13 @@
     margin-top: 20px;
     text-align: center;
     background-color: white;
-    width: 50%;
+    width: 40%;
 }
 
 .box {
     border: solid;
+    border-radius: 50px;
+    border-width: 5px;
     margin-top: 50px;
     text-align: center;
     width: 50%;
@@ -40,7 +44,7 @@ h1 {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 18px;
     color: green;
 }
 
@@ -78,7 +82,7 @@ h3 {
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 .search {
@@ -106,4 +110,8 @@ body {
 
 .emoji-emoji-sizer {
     display: none;
+}
+
+p {
+    font-size: 13px;
 }

@@ -16,14 +16,13 @@
         </div>
         <div class="row">
             <div class="col-sm-12">
-              <div class="input"> <input type="search" class="search" placeholder= "Type a city..."> <button type="button" class="search-btn">Search</button><button type="button" class="current-btn">Current</button></div>
-            
+              <div class="input"> <input type="search" class="search" placeholder= "Type a city..."> <button type="button" class="search-btn">Search</button><button type="button" class="current-btn">Current</button></div>            
             </div>
         </div>
         <div class="row">
             <div class="col-sm-12">
               <div class="box2">
-                <h2>Type a city to start and see today and next week's weather forecasts</h2>
+                <h2>Type a city for today and next days weather forecasts!</h2>
               </div>
             </div>  
         </div>
@@ -32,47 +31,46 @@
               <div class="box">
                 <h3><b>Current Weather</b></h3>
                 <div class="row">
-                  <div class="col-sm-5 left-column"><span class="city">Typed City</span> <span class="w-emoji"><img class="emoji-emoji-sizer" src="https://cdn.jsdelivr.net/emojione/assets/3.0/png/32/1f31e.png" data-codepoints="1f31e"></span></div>
-                  <div class="col-sm-5 offset-sm-2 right-column">
+                  <div class="col-sm-5 left-column"><span class="city">Typed City</span></div>
+                  <div class="col-sm-5 offset-sm-2 right-column today">
                       <div class="day">XXX</div>
-                      <div class="temperature">23&#176;</div>
+                      <div class="degrees">23&#176;</div>
+                      <img class="emoji emoji-emoji-sizer" src="https://cdn.jsdelivr.net/emojione/assets/3.0/png/32/26c5.png" data-codepoints="26c5">
                   </div>
                 </div>  
               </div>
           </div>
         </div>
         <div class="row next-days">
-          <div class="col-sm-2 offset-sm-1"><b>Monday</b>
+          <div class="col-sm-2 offset-sm-1 day"><b class="weekday">Mon</b>
            <br/>
-            <span class="degrees"> 15&#176;
-            <img class="emoji-emoji-sizer" src="https://cdn.jsdelivr.net/emojione/assets/3.0/png/32/26c5.png" data-codepoints="26c5">
-          </span>
+            <span class="degrees"> 15&#176;</span>
+            <img class="emoji emoji-emoji-sizer"/>
           </div>
-          <div class="col-sm-2"><b>Tuesday</b>
+          <div class="col-sm-2 day"><b class="weekday">Tue</b>
               <br/>
-            <span class="degrees"> 23&#176;
-          <img class="emoji-emoji-sizer" src="https://cdn.jsdelivr.net/emojione/assets/3.0/png/32/1f31e.png" data-codepoints="1f31e">
-        </span>
+            <span class="degrees"> 23&#176;</span>
+          <img class="emoji emoji-emoji-sizer"/>
           </div>
-          <div class="col-sm-2"><b>Wednesday</b>
+          <div class="col-sm-2 day"><b class="weekday">Wed</b>
               <br/>
-            <span class="degrees"> 22&#176;
-          <img class="emoji-emoji-sizer" src="https://cdn.jsdelivr.net/emojione/assets/3.0/png/32/1f31e.png" data-codepoints="1f31e">
-        </span>
+            <span class="degrees"> 22&#176;</span>
+          <img class="emoji emoji-emoji-sizer"/>
           </div>
-          <div class="col-sm-2"><b>Thursday</b>
+          <div class="col-sm-2 day"><b class="weekday">Thur</b>
               <br/>
-            <span class="degrees"> 19&#176;
-            <img class="emoji-emoji-sizer" src="https://cdn.jsdelivr.net/emojione/assets/3.0/png/32/26c5.png" data-codepoints="26c5">
-          </span>
+            <span class="degrees"> 19&#176;</span>
+            <img class="emoji emoji-emoji-sizer"/> 
           </div>
-          <div class="col-sm-2"><b>Friday</b>
+          <div class="col-sm-2 day"><b class="weekday">Fri</b>
               <br/>
-            <span class="degrees"> -1&#176;
-          <img class="emoji-emoji-sizer" src="https://cdn.jsdelivr.net/emojione/assets/3.0/png/32/26c4.png" data-codepoints="26c4">
-          </span>
+            <span class="degrees"> -1&#176;</span>
+            <img class="emoji emoji-emoji-sizer"/> 
+        
           </div>
         </div>
         <script src="src/index.js"></script>
+        <p>
+            Coded by Noemi Buscemi, <a href = "https://github.com/noemibuscemi/weather-app" target = "_blank">project available here.</a></p>
     </body>
   </html>
